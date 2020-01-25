@@ -1,5 +1,5 @@
 {
-  "name": "vuelidate-property-decorators",
+  "name": "vuelidate-property-decorators-ie",
   "version": "1.0.28",
   "main": "index.js",
   "license": "MIT",
@@ -10,14 +10,9 @@
     "decorator",
     "vue-class-component"
   ],
-  "homepage": "https://github.com/mesemus/vuelidate-property-decorators",
+  "homepage": "https://github.com/vargadan/vuelidate-property-decorators",
   "scripts": {
     "build": "npx babel src --out-dir dist"
-  },
-  "author": "Mirek Simek (miroslav.simek@gmail.com)",
-  "repository": "github:mesemus/vuelidate-property-decorators",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "vue-class-component": "^7.0.1",
@@ -37,5 +32,10 @@
     "eslint-plugin-vue": "^5.2.2",
     "flow-bin": "^0.94.0",
     "vue-to-js": "^0.9.4"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11"
+  ]
 }
