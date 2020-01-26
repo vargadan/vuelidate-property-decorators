@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { Validate } from 'vuelidate-property-decorators'
+import { Validate } from 'vuelidate-property-decorators-ie'
 import { Component, Vue } from 'vue-property-decorator'
 import { required, maxLength } from 'vuelidate/lib/validators'
 
