@@ -3,7 +3,7 @@ import { createDecorator } from 'vue-class-component';
 const validationCreator = function () {
     const validations = this.$vnode.componentOptions.Ctor.options.__validations || {};
     const ret = { };
-    for (let k in validations) {
+    for (const k in validations) {
         if (!validations.hasOwnProperty(k)) continue;
         let val = validations[k];
         if (k === '__validations__') {
